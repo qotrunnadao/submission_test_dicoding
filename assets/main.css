@@ -1,0 +1,218 @@
+* {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+.logo a {
+	font-size: 40px;
+	font-weight: 800;
+	float: left;
+	font-family: "Courier New", Courier, monospace;
+	color: #2f5d62;
+}
+.menu {
+	float: right;
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	top: 0;
+	background: #ffffff;
+	z-index: 1;
+	border-bottom: 1px solid #2f5d62;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+}
+nav ul li a {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+section {
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+article {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+article .deskripsi {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "comic sans ms";
+	color: #2f5d62;
+}
+
+h2 {
+	font-family: "comic sans ms";
+	font-weight: 800;
+	font-size: 45px;
+	margin-bottom: 20px;
+	color: #2f5d62;
+	width: 100%;
+	line-height: 50px;
+}
+
+a.btn-primary {
+	background: #5e8b7e;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px 20px 15px 20px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+}
+a.btn-primary:hover {
+	background: #d99879;
+	text-decoration: none;
+}
+
+a.btn-success {
+	background: #d99879;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px 20px 15px 20px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+}
+a.btn-success:hover {
+	background: #5e8b7e;
+	text-decoration: none;
+}
+p {
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+	text-align: center;
+	width: 100%;
+}
+
+.dokter-list {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.card img {
+	width: 80%;
+	border-radius: 50%;
+}
+
+.card p {
+	font-family: "comic sans ms";
+	font-weight: 800;
+	font-size: 25px;
+	text-align: center;
+	color: #2f5d62;
+}
+
+aside {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+#profil {
+	background-color: #dfeeea;
+}
+
+figure img {
+	float: left;
+	width: 60%;
+	border-radius: 50%;
+}
+.profil-section {
+	float: left;
+}
+footer {
+	padding: 20px;
+	color: white;
+	background-color: #5e8b7e;
+	text-align: center;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 991.98px) {
+	.wrapper {
+		width: 90%;
+	}
+
+	.logo a {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	nav .menu {
+		width: 100%;
+		margin: 0;
+	}
+
+	nav .menu ul {
+		text-align: center;
+		margin: auto;
+		line-height: 60px;
+	}
+
+	nav .menu ul li {
+		display: inline;
+		float: none;
+	}
+
+	section {
+		display: block;
+	}
+	section img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.card {
+		width: 50%;
+	}
+}
